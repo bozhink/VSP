@@ -43,7 +43,8 @@ namespace PasswordGenerator
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.btnGenerate);
             this.groupBox1.Controls.Add(this.label2);
@@ -53,14 +54,15 @@ namespace PasswordGenerator
             this.groupBox1.Controls.Add(this.txtPassword);
             this.groupBox1.Location = new System.Drawing.Point(11, 8);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(384, 182);
+            this.groupBox1.Size = new System.Drawing.Size(578, 182);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Generator";
             // 
             // btnGenerate
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(277, 123);
+            this.btnGenerate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGenerate.Location = new System.Drawing.Point(409, 73);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(75, 23);
             this.btnGenerate.TabIndex = 5;
@@ -70,8 +72,9 @@ namespace PasswordGenerator
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(23, 133);
+            this.label2.Location = new System.Drawing.Point(314, 54);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 13);
             this.label2.TabIndex = 4;
@@ -79,6 +82,7 @@ namespace PasswordGenerator
             // 
             // cmbSrcString
             // 
+            this.cmbSrcString.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbSrcString.FormattingEnabled = true;
             this.cmbSrcString.Items.AddRange(new object[] {
             "ss1",
@@ -90,7 +94,7 @@ namespace PasswordGenerator
             "ss7",
             "ss8",
             "ss9"});
-            this.cmbSrcString.Location = new System.Drawing.Point(118, 125);
+            this.cmbSrcString.Location = new System.Drawing.Point(409, 46);
             this.cmbSrcString.Name = "cmbSrcString";
             this.cmbSrcString.Size = new System.Drawing.Size(121, 21);
             this.cmbSrcString.TabIndex = 3;
@@ -98,8 +102,9 @@ namespace PasswordGenerator
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 93);
+            this.label1.Location = new System.Drawing.Point(314, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 13);
             this.label1.TabIndex = 2;
@@ -107,6 +112,7 @@ namespace PasswordGenerator
             // 
             // cmbPassLength
             // 
+            this.cmbPassLength.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbPassLength.FormattingEnabled = true;
             this.cmbPassLength.Items.AddRange(new object[] {
             "4",
@@ -117,28 +123,31 @@ namespace PasswordGenerator
             "32",
             "36",
             "64"});
-            this.cmbPassLength.Location = new System.Drawing.Point(118, 85);
+            this.cmbPassLength.Location = new System.Drawing.Point(409, 19);
             this.cmbPassLength.Name = "cmbPassLength";
             this.cmbPassLength.Size = new System.Drawing.Size(121, 21);
             this.cmbPassLength.TabIndex = 1;
             // 
             // txtPassword
             // 
-            this.txtPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.txtPassword.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPassword.Location = new System.Drawing.Point(26, 35);
+            this.txtPassword.Location = new System.Drawing.Point(26, 19);
+            this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(313, 20);
+            this.txtPassword.Size = new System.Drawing.Size(282, 157);
             this.txtPassword.TabIndex = 0;
+            this.txtPassword.WordWrap = false;
             // 
             // groupBox2
             // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.lblDescription);
             this.groupBox2.Location = new System.Drawing.Point(12, 206);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(382, 76);
+            this.groupBox2.Size = new System.Drawing.Size(576, 76);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Description";
@@ -155,7 +164,7 @@ namespace PasswordGenerator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(414, 304);
+            this.ClientSize = new System.Drawing.Size(608, 292);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
