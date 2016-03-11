@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="cdcatalog.xsl"?>
+<root>
+  <employee>
+    <firstname>Kaushal</firstname>
+    <lastname>Parik</lastname>
+  </employee>
+  <employee>
+    <firstname>Abhishek</firstname>
+    <lastname>Swarnkar</lastname>
+  </employee>
+</root>
