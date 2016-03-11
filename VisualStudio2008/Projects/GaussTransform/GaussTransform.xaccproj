@@ -1,6 +1,0 @@
-﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <BuildProject Include="GaussTransform\GaussTransform.csproj" />
-  </ItemGroup>
-  <Import Condition="" Project="C:\local\bin\xacc.imports" />
-</Project>
