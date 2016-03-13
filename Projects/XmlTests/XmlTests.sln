@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlTests", "XmlTests\XmlTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaxonTests", "SaxonTests\SaxonTests.csproj", "{93F42596-08A0-472B-A6C3-8571FC39A62A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDomManager", "XmlDomManager\XmlDomManager.csproj", "{BC86189B-C1CB-400A-9171-E76435CCBC70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{93F42596-08A0-472B-A6C3-8571FC39A62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93F42596-08A0-472B-A6C3-8571FC39A62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93F42596-08A0-472B-A6C3-8571FC39A62A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC86189B-C1CB-400A-9171-E76435CCBC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC86189B-C1CB-400A-9171-E76435CCBC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC86189B-C1CB-400A-9171-E76435CCBC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC86189B-C1CB-400A-9171-E76435CCBC70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
