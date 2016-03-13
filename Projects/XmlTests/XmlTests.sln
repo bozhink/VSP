@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDomManager", "XmlDomMana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlValidator", "XmlValidator\XmlValidator.csproj", "{0A5E6C3C-8F77-4B67-B7C9-301B467F8DBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "Runner\Runner.csproj", "{6EED250A-2C79-4894-944B-07CCC625CE9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0A5E6C3C-8F77-4B67-B7C9-301B467F8DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A5E6C3C-8F77-4B67-B7C9-301B467F8DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A5E6C3C-8F77-4B67-B7C9-301B467F8DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EED250A-2C79-4894-944B-07CCC625CE9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EED250A-2C79-4894-944B-07CCC625CE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EED250A-2C79-4894-944B-07CCC625CE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EED250A-2C79-4894-944B-07CCC625CE9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
