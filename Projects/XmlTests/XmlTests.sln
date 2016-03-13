@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaxonTests", "SaxonTests\Sa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDomManager", "XmlDomManager\XmlDomManager.csproj", "{BC86189B-C1CB-400A-9171-E76435CCBC70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlValidator", "XmlValidator\XmlValidator.csproj", "{0A5E6C3C-8F77-4B67-B7C9-301B467F8DBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BC86189B-C1CB-400A-9171-E76435CCBC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC86189B-C1CB-400A-9171-E76435CCBC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC86189B-C1CB-400A-9171-E76435CCBC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A5E6C3C-8F77-4B67-B7C9-301B467F8DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5E6C3C-8F77-4B67-B7C9-301B467F8DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5E6C3C-8F77-4B67-B7C9-301B467F8DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5E6C3C-8F77-4B67-B7C9-301B467F8DBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

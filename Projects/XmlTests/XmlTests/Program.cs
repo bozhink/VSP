@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml;
-using System.Xml.XPath;
-using System.Xml.Xsl;
-
-namespace XmlTests
+﻿namespace XmlTests
 {
-    class Program
-    {
-        private const string filename = "number.xml";
-        private const string stylesheet = "calc.xsl";
+    using System;
+    using System.IO;
+    using System.Xml;
+    using System.Xml.XPath;
+    using System.Xml.Xsl;
 
-        static void Main(string[] args)
+    public class Program
+    {
+        private const string Filename = "number.xml";
+        private const string Stylesheet = "calc.xsl";
+
+        private static void Main(string[] args)
         {
             {
                 XmlDocument xml = new XmlDocument();
@@ -28,18 +24,18 @@ namespace XmlTests
                 XsltSettings xsltSettings = new XsltSettings();
                 xsltSettings.EnableScript = true;
 
-                //Create the XslTransform and load the style sheet.
+                // Create the XslTransform and load the style sheet.
                 XslCompiledTransform xslt = new XslCompiledTransform(true);
-                xslt.Load(stylesheet, xsltSettings, new XmlUrlResolver());
+                xslt.Load(Stylesheet, xsltSettings, new XmlUrlResolver());
 
-                //Load the XML data file.
-                XPathDocument doc = new XPathDocument(filename);
+                // Load the XML data file.
+                XPathDocument doc = new XPathDocument(Filename);
 
-                //Create an XmlTextWriter to output to the console.             
+                // Create an XmlTextWriter to output to the console.
                 XmlTextWriter writer = new XmlTextWriter(Console.Out);
                 writer.Formatting = Formatting.Indented;
 
-                //Transform the file.
+                // Transform the file.
                 xslt.Transform(doc, null, writer, null);
                 writer.Close();
             }

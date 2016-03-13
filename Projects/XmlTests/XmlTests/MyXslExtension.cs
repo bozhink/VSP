@@ -1,7 +1,7 @@
-﻿using System.Xml;
-
-namespace XmlTests
+﻿namespace XmlTests
 {
+    using System.Xml;
+
     public class MyXslExtension
     {
         public string FormatName(string name)

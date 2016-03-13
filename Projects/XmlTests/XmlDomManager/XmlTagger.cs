@@ -6,7 +6,6 @@
     {
         public void WrapTextInTag(XmlNode node, string text, string tagName)
         {
-
         }
     }
 }
